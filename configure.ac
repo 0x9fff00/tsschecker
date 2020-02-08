@@ -23,7 +23,7 @@ AM_CONDITIONAL(WIN32, test x$win32 = xtrue)
 
 # Checks for programs.
 AC_PROG_CC
-CFLAGS+=" -std=c11"
+CFLAGS+=" -std=gnu11"
 AC_PROG_INSTALL
 AC_PROG_LIBTOOL
 AC_CONFIG_MACRO_DIRS([m4])
